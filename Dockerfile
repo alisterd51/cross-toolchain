@@ -9,7 +9,9 @@ RUN apt update && apt install -y \
     texinfo \
     curl \
     xorriso \
-    grub2
+    grub2 \
+    git \
+    qemu-system
 
 ENV BINUTILS_VER=2.42
 
