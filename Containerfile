@@ -13,7 +13,8 @@ RUN apt-get update && \
     xorriso \
     grub2 \
     git \
-    qemu-system && \
+    qemu-system \
+    qemu-system-gui && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ENV BINUTILS_VER=2.43
