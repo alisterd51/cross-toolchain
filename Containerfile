@@ -1,4 +1,4 @@
-FROM debian:trixie@sha256:3ae423d8367ae00e509ff848b493c9e3710b48fcedac997dad061fe3d3b158dd
+FROM debian:trixie@sha256:b7e663fabda920f28abf26e7fbfe0867145645fdf3e47a42323147242151e066
 
 # hadolint ignore=DL3008
 RUN apt-get update && \
